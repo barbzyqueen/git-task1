@@ -1,0 +1,133 @@
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom:10px;
+}
+
+textarea {
+    height: 50px;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+
+}
+
+*:focus {outline: none;}
+
+#nameErr{
+	color:red;
+}
+
+#emailErr{
+	color:red;
+}
+
+.div_container{
+			
+			border:1px solid clear;
+			width:100%;
+			/*height:100%;*/
+		}
+
+.div_sidebar{
+			
+			border:1px solid clear;
+			width:30%;
+			/*height:100%;*/
+
+			float:left;
+			background-color:#C7F5EC;
+		}
+
+img{
+	border-radius:50%;
+	width:150px;
+	height:150px;
+	margin-left:120px;
+
+}
+
+.name_color{
+	color:#0088cc;
+}
+
+h1{
+	font-size:40px;
+	font-weight:bold;
+}
+
+.experience{
+	font-size:20px;
+}
+
+h2{
+	font-size:22px; 
+	color:#0088cc;
+}
+
+p{
+	font-size:18px;
+}
+
+em{
+	font-size:16px;
+}
+
+.contact_info{
+	font-size: 18px;
+	text-align:center;
+}
+
+.contact-btns{
+	margin-left:30px;
+	margin-top:20px;
+
+
+}
+
+.btn{
+	background-color: #0088cc;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.submit-btn{
+	margin-top:-10px;
+}
+
+.sidebar_text{
+	font-size: 18px;
+	padding-left:50px;
+}
+
+.div_main{
+			
+			border:1px solid clear;
+			width:60%;
+			/*height:100%;*/
+			float:left;
+			background-color:white;
+		}
+
+.main_text{
+	font-size: 18px;
+	padding-left:50px;
+}
